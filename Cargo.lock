@@ -702,7 +702,7 @@ dependencies = [
  "toml",
  "twilight-embed-builder",
  "twilight-gateway",
- "twilight-http 0.3.6",
+ "twilight-http",
  "twilight-model 0.3.5",
  "twilight-util",
  "unic-langid",
@@ -2248,7 +2248,7 @@ dependencies = [
  "tokio-tungstenite",
  "tracing",
  "twilight-gateway-queue",
- "twilight-http 0.4.3",
+ "twilight-http",
  "twilight-model 0.4.3",
  "url",
 ]
@@ -2261,28 +2261,7 @@ checksum = "ca32c7b1a803cd295ceaeea9ad14a330775aaa87e087439f8ded1bee2945e120"
 dependencies = [
  "tokio",
  "tracing",
- "twilight-http 0.4.3",
-]
-
-[[package]]
-name = "twilight-http"
-version = "0.3.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ccd5abf3edca789b90170bef8c09dafb9276cda3889507ebe1a5cf795dbfa805"
-dependencies = [
- "bytes",
- "futures-channel",
- "futures-util",
- "hyper",
- "hyper-rustls",
- "percent-encoding",
- "rand",
- "serde",
- "serde_json",
- "serde_repr",
- "tokio",
- "tracing",
- "twilight-model 0.3.5",
+ "twilight-http",
 ]
 
 [[package]]
