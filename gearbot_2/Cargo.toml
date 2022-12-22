@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 actix-web = "4.0.0-beta.21"
 twilight-http = "0.9"
-twilight-gateway = "0.9"
+twilight-gateway = "0.11"
 twilight-model = "0.9"
 twilight-util = "0.14"
 twilight-embed-builder = "0.9"
