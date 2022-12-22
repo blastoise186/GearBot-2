@@ -15,7 +15,7 @@ twilight-model = "0.9"
 twilight-util = { version = "0.9", features = ["builder", "snowflake"] }
 twilight-embed-builder = "0.9"
 twilight-validate = "0.14"
-rdkafka = { version = "0.28", features = ["cmake-build"] }
+rdkafka = { version = "0.29", features = ["cmake-build"] }
 bincode = { version = "2.0.0-alpha.2", features = ["serde"] }
 tokio = "1.15"
 uuid = { version = "0.8", features = ["v4"] }
