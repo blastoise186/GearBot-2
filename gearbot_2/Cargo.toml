@@ -12,7 +12,7 @@ twilight-gateway = "0.11"
 twilight-model = "0.9"
 twilight-util = "0.14"
 twilight-embed-builder = "0.9"
-twilight-mention = "0.9"
+twilight-mention = "0.14"
 gearbot_2_lib = { path = "../gearbot_2_lib" }
 tokio = { default-features = false, features = ["macros", "rt-multi-thread", "sync", "time", "parking_lot"], version = "1.5" }
 parking_lot = "0.11"
