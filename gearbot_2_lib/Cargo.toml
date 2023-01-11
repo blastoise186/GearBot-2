@@ -10,7 +10,7 @@ fluent-bundle = "0.15"
 intl-memoizer = "0.5"
 unic-langid = "0.9"
 tracing = "0.1"
-twilight-http = "0.9"
+twilight-http = "0.11"
 twilight-model = "0.9"
 twilight-util = { version = "0.14", features = ["builder", "snowflake"] }
 twilight-embed-builder = "0.9"
