@@ -802,7 +802,7 @@ dependencies = [
  "gearbot_2_lib",
  "git-version",
  "num-format",
- "parking_lot 0.11.2",
+ "parking_lot 0.12.1",
  "prometheus",
  "rdkafka",
  "serde_json",
