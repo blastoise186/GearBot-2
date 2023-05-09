@@ -19,7 +19,7 @@ hex = "0.4"
 gearbot_2_lib = { path = "../gearbot_2_lib" }
 chrono = "0.4"
 futures-util = "0.3"
-actix-utils = "3.0.0-beta.4"
+actix-utils = "3.0.1"
 pin-project-lite = "0.2"
 prometheus = "0.13"
 tracing = "0.1"
