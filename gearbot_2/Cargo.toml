@@ -10,7 +10,7 @@ actix-web = "4.2.1"
 twilight-http = "0.11"
 twilight-gateway = "0.15"
 twilight-model = "0.14"
-twilight-util = "0.14"
+twilight-util = "0.15"
 twilight-embed-builder = "0.9"
 twilight-mention = "0.14"
 gearbot_2_lib = { path = "../gearbot_2_lib" }
