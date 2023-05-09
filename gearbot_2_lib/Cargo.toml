@@ -18,7 +18,7 @@ twilight-validate = "0.14"
 rdkafka = { version = "0.29", features = ["cmake-build"] }
 bincode = { version = "2.0.0-rc.3", features = ["serde"] }
 tokio = "1.26"
-uuid = { version = "0.8", features = ["v4"] }
+uuid = { version = "1.3", features = ["v4"] }
 time = "0.3"
 aes-gcm = "0.9"
 rand = "0.8"
