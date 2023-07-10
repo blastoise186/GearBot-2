@@ -166,7 +166,7 @@ dependencies = [
  "serde_urlencoded",
  "smallvec",
  "socket2",
- "time 0.3.6",
+ "time 0.3.23",
  "url",
 ]
 
@@ -456,7 +456,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "94d4706de1b0fa5b132270cddffa8585166037822e260a944fe161acd137ca05"
 dependencies = [
  "percent-encoding",
- "time 0.3.6",
+ "time 0.3.23",
  "version_check",
 ]
 
@@ -806,7 +806,7 @@ dependencies = [
  "prometheus",
  "rdkafka",
  "serde_json",
- "time 0.3.6",
+ "time 0.3.23",
  "tokio",
  "tracing",
  "tracing-subscriber",
@@ -858,7 +858,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sqlx",
- "time 0.3.6",
+ "time 0.3.23",
  "tokio",
  "tracing",
  "twilight-embed-builder",
@@ -1417,15 +1417,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "num_threads"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "71a1eb3a36534514077c1e079ada2fb170ef30c47d203aa6916138cf882ecd52"
-dependencies = [
- "libc",
 ]
 
 [[package]]
@@ -2073,7 +2064,7 @@ dependencies = [
  "sqlx-rt",
  "stringprep",
  "thiserror",
- "time 0.3.6",
+ "time 0.3.23",
  "tokio-stream",
  "url",
  "webpki-roots",
@@ -2190,21 +2181,30 @@ dependencies = [
 
 [[package]]
 name = "time"
-version = "0.3.6"
+version = "0.3.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c8d54b9298e05179c335de2b9645d061255bcd5155f843b3e328d2cfe0a5b413"
+checksum = "59e399c068f43a5d116fedaf73b203fa4f9c519f17e2b34f63221d3792f81446"
 dependencies = [
  "itoa 1.0.1",
- "libc",
- "num_threads",
+ "serde",
+ "time-core",
  "time-macros",
 ]
 
 [[package]]
-name = "time-macros"
-version = "0.2.3"
+name = "time-core"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25eb0ca3468fc0acc11828786797f6ef9aa1555e4a211a60d64cc8e4d1be47d6"
+checksum = "7300fbefb4dadc1af235a9cef3737cea692a9d97e1b9cbcd4ebdae6f8868e6fb"
+
+[[package]]
+name = "time-macros"
+version = "0.2.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "96ba15a897f3c86766b757e5ac7221554c6750054d74d5b28844fce5fb36a6c4"
+dependencies = [
+ "time-core",
+]
 
 [[package]]
 name = "tinystr"
@@ -2537,7 +2537,7 @@ dependencies = [
  "serde",
  "serde-value",
  "serde_repr",
- "time 0.3.6",
+ "time 0.3.23",
 ]
 
 [[package]]
@@ -2550,7 +2550,7 @@ dependencies = [
  "serde",
  "serde-value",
  "serde_repr",
- "time 0.3.6",
+ "time 0.3.23",
  "tracing",
 ]
 
@@ -2564,7 +2564,7 @@ dependencies = [
  "serde",
  "serde-value",
  "serde_repr",
- "time 0.3.6",
+ "time 0.3.23",
  "tracing",
 ]
 
@@ -2578,7 +2578,7 @@ dependencies = [
  "serde",
  "serde-value",
  "serde_repr",
- "time 0.3.6",
+ "time 0.3.23",
  "tracing",
 ]
 
