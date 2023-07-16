@@ -11,7 +11,7 @@ actix-rt = "2"
 twilight-http = "0.11"
 twilight-model = "0.14"
 twilight-util = { version = "0.15", features = ["builder"] }
-twilight-embed-builder = "0.9"
+twilight-embed-builder = "0.11"
 twilight-mention = "0.15"
 serde_json = "1.0"
 ring = "0.16"
