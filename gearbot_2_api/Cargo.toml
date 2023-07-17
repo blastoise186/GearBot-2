@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 actix-web = "4.2.1"
 actix-rt = "2"
-twilight-http = "0.11"
+twilight-http = "0.15"
 twilight-model = "0.14"
 twilight-util = { version = "0.15", features = ["builder"] }
 twilight-embed-builder = "0.11"
