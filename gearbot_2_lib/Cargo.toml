@@ -11,7 +11,7 @@ intl-memoizer = "0.5"
 unic-langid = "0.9"
 tracing = "0.1"
 twilight-http = "0.15"
-twilight-model = "0.14"
+twilight-model = "0.15"
 twilight-util = { version = "0.15", features = ["builder", "snowflake"] }
 twilight-embed-builder = "0.11"
 twilight-validate = "0.15"
